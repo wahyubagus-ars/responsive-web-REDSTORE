@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/1b4fc6a85e.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://kit.fontawesome.com/1b4fc6a85e.js" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
@@ -19,7 +19,7 @@
           <img src="assets/images/logo.png" alt="" width="125px">
         </div>
         <nav>
-          <ul>
+          <ul id="MenuItems" class="">
             <li><a href="">Home</a></li>
             <li><a href="">Product</a></li>
             <li><a href="">About</a></li>
@@ -28,6 +28,7 @@
           </ul>
         </nav>
         <img src="assets/images/cart.png" alt="" width="30px" height="30px">
+        <img src="assets/images/menu.png" class="menu-icon" onclick="menutoggle()">
       </div>
 
       <div class="row">
@@ -60,7 +61,7 @@
       </div>
     </div>
   </div>
-  
+
   <!-- Featured Product -->
   <div class="small-container">
     <h2 style="font-family: 'Oswald';" class="title">Featured Products</h2>
@@ -167,8 +168,6 @@
         </div>
         <p>$50.00</p>
       </div>
-    </div>
-    <div class="row">
       <div class="col-4">
         <img src="assets/images/product-9.jpg" alt="">
         <h4>Red Printed T-Shirt</h4>
@@ -231,15 +230,156 @@
         <div class="col-2">
           <p>Exclusive Available on RedStore</p>
           <h1>Smart Band 4</h1>
-          <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Magnam, iusto quas amet dolorum assumenda aperiam a aliquid officia
-             tempora, expedita deleniti natus ratione, delectus provident 
-             incidunt non </small>
-             <a href="" class="btn">Buy Now &#8594;</a>
+            tempora, expedita deleniti natus ratione, delectus provident
+            incidunt non </small>
+          <a href="" class="btn">Buy Now &#8594;</a>
         </div>
       </div>
     </div>
   </div>
+
+
+  <!-- Testimonial -->
+
+  <div class="testimonial">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Laborum asperiores error tempora quas assumenda et consectetur
+            nihil nobis accusamus quaerat sapiente,</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <img src="assets/images/user-2.png" alt="">
+          <h3>Sean Paul</h3>
+        </div>
+
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Laborum asperiores error tempora quas assumenda et consectetur
+            nihil nobis accusamus quaerat sapiente,</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <img src="assets/images/user-1.png" alt="">
+          <h3>McGregor</h3>
+        </div>
+
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Laborum asperiores error tempora quas assumenda et consectetur
+            nihil nobis accusamus quaerat sapiente,</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <img src="assets/images/user-3.png" alt="">
+          <h3>Emma Watson</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brand -->
+
+  <div class="brands">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+          <img src="assets/images/logo-godrej.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="assets/images/logo-oppo.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="assets/images/logo-coca-cola.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="assets/images/logo-paypal.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="assets/images/logo-philips.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android ios mobile phone</p>
+          <div class="app-logo">
+            <img src="assets/images/play-store.png" alt="">
+            <img src="assets/images/app-store.png" alt="">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="assets/images/logo-white.png">
+          <p>Our purpose is To Substainably make the pleasure and benefits of
+            Sports Accesible to the many.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>You Tube</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2020 - ars</p>
+    </div>
+  </div>
 </body>
+<script>
+  // Menu toggle
+  const MenuItems = document.getElementById('MenuItems')
+  MenuItems.style.maxHeight = "0px"
+  console.log(MenuItems);
+  // console.log(MenuItems);
+
+  function menutoggle() {
+    if (MenuItems.style.maxHeight == "0px") {
+      MenuItems.style.maxHeight = "200px"
+      console.log(MenuItems);
+    } else if (MenuItems.style.maxHeight == "200px") {
+      MenuItems.style.maxHeight = "0px"
+    }
+  }
+
+  // menutoggle()
+</script>
 
 </html>
